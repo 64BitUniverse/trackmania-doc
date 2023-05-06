@@ -8,6 +8,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.footer
+    - navigation.indexes
+    - toc.follow
   logo: assets/tm-logo.png
   palette:
     # Palette toggle for light mode
@@ -50,22 +52,39 @@ markdown_extensions:
 
 nav:
   - General:
-    - Home: general/index.md
+    - general/index.md
     - How to report a player?: general/how-to-report-player.md
     - Crossplay & Crossprogression: general/crossplay-and-crossprogression.md
     - Differences between the accesses: general/differences-between-the-accesses.md
-  - Play: 
-    - What is a Seasonal Campaign?: play/what-is-a-seasonal-campaign.md
-    - Play previous campaigns: play/play-previous-campaigns.md
-    - What is a Track Of The Day?: play/what-is-totd.md
-    - How to play Cup Of The Day?: play/how-to-play-cotd.md
-    - What is Royal?: play/what-is-royal.md
-    - The Royal Map Pool: play/royal-mappool.md
-    - What is the Ranked 3v3 Gamemode?: play/what-is-ranked-3v3.md
-    - How to play Ranked 3v3 with my friends?: play/how-to-play-ranked-3v3-friends.md
-    - What are the Arcade Channels?: play/what-are-arcade-channels.md
-    - Help expand this section: play/index.md
+  - Play:
+    - play/index.md
+    - Enviroments:
+      - Dirt: play/dirt.md
+      - Grass: play/grass.md
+      - Ice: play/ice.md
+      - Plastic: play/plastic.md
+      - Water: play/water.md
+    - Styles:
+      - FullSpeed: play/fullspeed.md
+      - RPG: play/rpg.md
+      - Tech: play/tech.md
+    - Modes:
+      - All things Campaign:
+        - What is a Seasonal Campaign?: play/what-is-a-seasonal-campaign.md
+        - Play previous campaigns: play/play-previous-campaigns.md
+      - All things TOTD:
+        - What is a Track Of The Day?: play/what-is-totd.md
+        - How to play the Cup Of The Day?: play/how-to-play-cotd.md
+      - All things Royal:
+        - What is Royal?: play/what-is-royal.md
+        - The Royal Map Pool: play/royal-mappool.md
+      - All things Ranked:
+        - What is the Ranked 3v3 Gamemode?: play/what-is-ranked-3v3.md
+        - How to play Ranked 3v3 with my friends?: play/how-to-play-ranked-3v3-friends.md
+      - Misc:
+        - What are the Arcade Channels?: play/what-are-arcade-channels.md
   - Club:
+    - club/index.md
     - How to join a club?: club/how-to-join.md
     - How to create a club?: club/create-a-club.md
     - Create and manage an activity: club/create-manage-activity.md
@@ -97,8 +116,8 @@ nav:
       - Skin Uploads: club/activities/skin-uploads.md
       - Track Reviews: club/activities/track-review.md
       - Track Uploads: club/activities/track-uploads.md
-    - Help expand this section: club/index.md
   - Create: 
+    - create/index.md
     - Garage:
       - Prestige Skins: create/garage/prestige-skins.md
     - Map review:
@@ -117,7 +136,6 @@ nav:
       - Pivots and placement parameters: create/nadeo-importer/08-pivots-and-placement-parameters.md
       - About Mesh, Shape and Mat Gbx files: create/nadeo-importer/09-about-mesh-shape-and-mat-gbx-files.md
     - How to make Parallax signs: create/parallax-signs/index.md
-    - Help expand this section: create/index.md
   - Web: 
     - Web Services: web/web-services/index.md
     - Auth: web/web-services/auth.md
